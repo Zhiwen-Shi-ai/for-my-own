@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+	
+.head{
+	margin: 2px 0px;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+.head ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	color: #FFFFFF;
+	position: relative;
+	column-gap:30px;
+	line-height: 50px;
+	margin-right: 150px;
+}
+.head ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+    font-size: 12px; 
+	    border: 1.5px solid transparent;
+	    transition: all 0.25s ease;
+}
+
+.head ul .white a{
+	font-size: 30px;
+	margin-left: 30px;
+	margin-right: 150px;
+}
+.head ul li a:hover{
+	background-color: #FFFFFF;
+	box-shadow: 0 0 0 20px #FFFFFF;  /* 白色背景 */              
+	border-radius: 0; 
+	font-size: 13px;
+	color:#F0AD4E ;
+}
+.log-in{
+	display: flex;
+	flex-direction: column;    /* 垂直排列 */
+	align-items: center;       /* 子元素水平居中 */
+	justify-content: flex-start;
+	margin: 50px auto;
+	width: 350px;
+	padding: 30px;
+	border:1px solid black ;
+}
+.account{
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+.password{
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+.log-in button{
+	color: #FFFFFF;
+	background-color: black;
+	width: 200px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 8px;
+}
+.main {
+	margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/15.jpg);
+    background-size: cover;          /* ✅ 铺满整个区域 */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.photo-wall {
+	padding: 50px 80px;
+    display: flex;
+    gap: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;   /* 纵向排列 */
+    gap:10px;
+    flex: 1;
+}
+
+.column img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
